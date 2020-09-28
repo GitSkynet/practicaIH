@@ -1,0 +1,62 @@
+header{
+    background-color: mediumseagreen;
+    width: auto;
+    height: 100px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: red;
+    width: auto;
+    height: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px
+}
+
+.article{
+    background-color: yellow;
+    padding: 10px 5px;
+    width: 900px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
+}
+
+.a1, .a2{
+    background-color: orange;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    width: 850px;
+    height: auto;
+}
+
+.aside{
+    background-color: grey;
+    float: right;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(65, 169, 204);
+    width: auto;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
